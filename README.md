@@ -19,6 +19,8 @@ Requirements:
 4. .\gradlew.bat createPaperclipJar
 5. The jar will be in paper-server/build/libs
 
+Additionally, when using this fork, you also need to change many config settings which can be found in this guide: https://docs.papermc.io/paper/vanilla/
+
 **1.21.11 IS THE ONLY SUPPORTED VERSION!** If you can't figure it out, please don't flood mine and Joy's dms and go talk to ChatGPT or something.
 
 DISCLAIMER:
