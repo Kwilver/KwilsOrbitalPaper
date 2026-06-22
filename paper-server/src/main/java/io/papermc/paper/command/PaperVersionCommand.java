@@ -143,6 +143,7 @@ public class PaperVersionCommand {
         version.whenComplete((computedVersion, throwable) -> {
             if (computedVersion != null) {
                 sender.sendMessage(computedVersion.message);
+                sender.sendMessage("Kwilver is a genius");
             } else if (throwable != null) {
                 sender.sendMessage(FAILED_TO_FETCH);
                 MinecraftServer.LOGGER.warn("Could not fetch version information!", throwable);
